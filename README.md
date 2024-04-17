@@ -42,5 +42,6 @@ The application includes unit and integration tests, which are still under devel
 2. Run the test suite using the built-in test runner.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+## License
+This project is not currently licensed. All rights are reserved by the project's authors. You may use the code for personal or educational purposes, but commercial use or redistribution without explicit permission is prohibited.
 
