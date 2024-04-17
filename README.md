@@ -38,8 +38,8 @@ This Android application fetches Bitcoin price data from an API and displays it 
 ## Testing
 The application includes unit and integration tests, which are still under development. You can review the existing tests and contribute to completing them to ensure robust app performance.
 ### To execute the tests:
-    1. Navigate to the test directory in your IDE.
-    2. Run the test suite using the built-in test runner.
+1. Navigate to the test directory in your IDE.
+2. Run the test suite using the built-in test runner.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
