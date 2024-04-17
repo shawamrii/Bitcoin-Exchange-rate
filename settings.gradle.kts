@@ -1,5 +1,6 @@
 pluginManagement {
     repositories {
+        gradlePluginPortal()
         google {
             content {
                 includeGroupByRegex("com\\.android.*")
@@ -8,7 +9,13 @@ pluginManagement {
             }
         }
         mavenCentral()
-        gradlePluginPortal()
+    }
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.namespace == "com.android") {
+                useVersion("7.3.0")
+            }
+        }
     }
 }
 dependencyResolutionManagement {
@@ -21,4 +28,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "My Application"
 include(":app")
- 
