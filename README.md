@@ -1,4 +1,4 @@
-# My Application
+# Bitcoin exchange rate
 
 Welcome to My Application! This project is a simple Android application for displaying Bitcoin price data.
 
