@@ -8,7 +8,7 @@ Welcome to My Application! This project is a simple Android application for disp
 3. [Prerequisites](#prerequisites)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [Contributing](#contributing)
+6. [Testing](#testing)
 7. [License](#license)
 
 ## Introduction
@@ -35,13 +35,11 @@ This Android application fetches Bitcoin price data from an API and displays it 
 3. Sort the data by selecting sorting options (Newest First or Oldest First).
 4. Choose the currency (EUR or USD) using the currency spinner.
 
-## Contributing
-Contributions are welcome! If you would like to contribute to this project, please follow these steps:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature`)
-3. Make your changes and commit them (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature`)
-5. Create a new Pull Request.
+## Testing
+The application includes unit and integration tests, which are still under development. You can review the existing tests and contribute to completing them to ensure robust app performance.
+###To execute the tests:
+    1. Navigate to the test directory in your IDE.
+    2. Run the test suite using the built-in test runner.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
